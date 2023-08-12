@@ -4,8 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon ./src/index.ts",
-    "build": "rm -rf && tsc"
+    "build": "npx tsc",
+    "start": "node ./dist/index.js"
   },
   "devDependencies": {
     "@types/bcryptjs": "^2.4.2",
